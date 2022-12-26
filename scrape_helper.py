@@ -47,21 +47,21 @@ def compare_dict(old_dict,new_dict,body):
 	for coin in a_coins:
 		if coin not in b_coins:
 
-			response.append("closed:--"+coin+" current price: "+get_price(coin))
+			response.append("closed:--"+coin+" current price: ")#+get_price(coin))
 
 	for coin in b_coins:
 		if coin not in a_coins:
 			if coin.lower() == "short" or coin.lower() == "long":
 				print("html error handeled")
 				return []
-			response.append("New position:-- "+ coin+" "+new_dict[coin]+" entry at: "+entry[coin][0]+" "+entry[coin][1]+entry[coin][2]+" current price: "+get_price(coin))
+			response.append("New position:-- "+ coin+" "+new_dict[coin]+" entry at: "+entry[coin][0]+" "+entry[coin][1]+entry[coin][2]+" current price: ")#+get_price(coin))
 
 	for obj in old_dict:
 		try:
 
 			if old_dict[obj] != new_dict[obj]:
 
-				response.append("change:-- "+obj+" "+old_dict[obj]+" to "+new_dict[obj]+" entry at: "+entry[obj][0]+" "+entry[obj][1]+entry[obj][2]+" current price: "+get_price(obj))
+				response.append("change:-- "+obj+" "+old_dict[obj]+" to "+new_dict[obj]+" entry at: "+entry[obj][0]+" "+entry[obj][1]+entry[obj][2]+" current price: ")#+get_price(obj))
 		except:
 			print("exception:--", obj)
 	return response	
