@@ -3,6 +3,9 @@ simple binance leaderboard tracker
 
 # pip install requests-html
 
+very easy to use for non coders
+let me know if you have any problems and questions
+
 copy any url from binnace leaderboard and paste it into scrape_helper.py here
 ![scrape](https://user-images.githubusercontent.com/71742043/209511387-3cc0cf2a-be19-43c3-872b-a625a59ad93f.png)
 
