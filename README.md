@@ -20,3 +20,9 @@ and get binance api keys and put them in binance_price.py here
 
 ![binance_api](https://user-images.githubusercontent.com/71742043/209511219-b16dd767-b8f4-48f2-9555-aa661e8588b2.png)
 
+and uncomment the get_price in scrape_helper.py
+
+for non coders remove the )# in 3 line in scrape_helper.py
+![image](https://user-images.githubusercontent.com/71742043/209512303-8c6b09ea-fe92-46a0-8b3c-77eec873915f.png)
+
+![image](https://user-images.githubusercontent.com/71742043/209512339-2bffd869-3b79-4e88-b9db-fefe503d1f0f.png)
